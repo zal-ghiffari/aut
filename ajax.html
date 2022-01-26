@@ -1,0 +1,133 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="robots" content="nofollow, noindex">
+    
+    <title>Ajax Test Day 2 4</title>
+    
+   <link href="assets/bootstrap.min.css" rel="stylesheet">
+
+    <link href="assets/main.css" rel="stylesheet">
+    <link href="assets/custom.css" rel="stylesheet">
+   </script><script src="assets/jquery.js"></script>
+
+</head>
+<body>
+
+<div id="includedContent">
+ 
+
+ <div class="container-fluid">
+        <!-- Top logo -->
+        <div class="row topper">
+            <div class="col-md-4 header-section">
+                
+                <div id="name-and-slogan" style="padding-top: 0px;padding-left: 0px;">
+                    <div id="site-name" class="site-name"><a href="#" title="Home" rel="home" style="font-size:32px;">Demo Site</a></div>
+                    
+                </div>
+            </div>
+            <div class="top-banner col-md-6">
+            </div>
+        </div>
+        <!-- End Top -->
+        
+   
+<div class="row">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container" style="padding-right: 0px;padding-left: 0px;">
+                    <!-- Brand and toggle -->
+                   
+
+                    <!-- Nav links for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Selenium
+					  <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="flash-testing.html">Flash Movie Demo</a></li>
+                                    <li><a href="radio.html">Radio &amp; Checkbox Demo</a></li> 
+                                    <li><a href="table.html">Table Demo</a></li> 
+                                    <li><a href="link.html">Accessing Link</a></li>
+                                    <li><a href="ajax.html">Ajax Demo</a></li>
+                                    <li><a href="block.html">Inside &amp; Outside Block Level Tag</a></li>
+                                    <li><a href="delete_customer.php">Delete Customer Form</a></li>
+                                    <li><a href="yahoo.html">Yahoo</a></li>
+                                    <li><a href="tooltip.html">Tooltip</a></li>
+                                    <li><a href="upload/">File Upload</a></li>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="social-icon.html">Social Icon</a></li>
+                                    <li><a href="autoit.html">Selenium Auto IT</a></li>
+                                    <li><a href="facebook.html">Selenium IDE Test</a></li>
+                                    <li><a href="guru99home/">Guru99 Demo Page</a></li>
+                                    <li><a href="guru99home/scrolling.html">Scrollbar Demo</a></li>
+                                    <li><a href="image_upload/">File Upload using Sikuli Demo</a></li>
+                                    <li><a href="cookie/selenium_aut.php">Cookie Handling Demo</a></li>
+                                    <li><a href="drag_drop.html">Drag and Drop Action</a></li>
+                                    <li><a href="">Selenium DatePicker Demo</a></li>
+                                </ul>
+                            </li>
+                             <li class="dropdown">
+                                <a href="#">Insurance Project</a>
+                                
+                            </li>
+                           <li class="dropdown">
+                                <a href="#">Agile Project</a>
+                               
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">Bank Project</a>
+                                
+                            </li>
+                            <li class="dropdown">
+                               <a href="#">Security Project</a>
+                            </li>
+                            <li class="dropdown"><a href="#">Telecom Project</a></li>
+                            
+                            <li class="dropdown"><a href="#">Payment Gateway Project</a></li>
+                            
+                            <li class="dropdown"><a href="#">New Tours</a></li>
+                            
+                        </ul>
+                        
+                        
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+         </div>
+</div>
+
+<div class="container">
+<form>
+    <p>
+        <label>
+            <input type="radio" id="yes" name="name" value="Yes"> Yes
+        </label>
+        <label>
+            <input type="radio" id="no" name="name" value="No"> No 
+        </label>
+    </p>
+    <p>
+        <input type="reset" value="Reset">
+        <input type="submit" id="buttoncheck" value="Check">
+    </p>
+    <p class="radiobutton"></p>
+</form>
+</div>
+<script>
+$('#buttoncheck').click(function(){
+    if ($("input[name='name']").is(':checked')) {
+        $('.radiobutton').html("Radio button is checked and it's value is "+$("input[name='name']:checked").val())
+    }
+    else {
+        $('.radiobutton').html('Radio button is Not checked')
+    }
+    // return false  use as per you need
+    return false;
+})
+</script>   
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="assets/treemenu.js"></script>
+</body></html>
