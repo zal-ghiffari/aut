@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Admin Page</title>
+    <title>Admin Page 1</title>
     
 </head>
 <body>
